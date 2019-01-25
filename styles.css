@@ -6,28 +6,28 @@
 
 header {
     position: fixed;
+    display: inline-block;
     height: 64px;
     width: 100%;
 }
 
-.tophead {
-    postion: sticky;   
-    float: left;
-   
+.google-logo #googlelogo {
+    padding: 0 0 0 39px;
+    margin-top: 26px
 }
 
 #accountbar {
     position: fixed;
-    display: inline-block;
     top: 0;
     right: 0;
-    vertical-align: middle;
 }
 
 form {
-    display: inline-block;
-    vertical-align: middle;
-}
+    height: 41px;
+    width: 650px;
+    position: fixed;
+    margin: 0 0 0 0
+    }
 
 input[type=text] {
     height: 40px;
@@ -36,7 +36,20 @@ input[type=text] {
     border-left: transparent;
     border-bottom: solid transparent 1px;
     border-right: solid transparent 1px;
+    padding: 0 20px;
+    margin: 20px 0 0 170px;
+}
+
+input[type=text]:hover {
+    height: 40px;
+    width: 525px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: solid transparent 1px;
+    border-right: solid transparent 1px;
     box-shadow: 0px 1px 1px 0px;
+    padding: 0 20px;
+    margin: 20px 0 0 170px;;
 }
 
 .resultsbar {
