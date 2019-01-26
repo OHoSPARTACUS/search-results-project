@@ -7,20 +7,26 @@
 </head>
 <body>
     <header>
-            <a href="http://www.google.com" class="google-logo"><img src="images/google-logo.png" height="30px" width="92px" id="googlelogo"></a>
-        <div id="accountbar">
-            <a href="#" target="_blank"><img src="images/google-apps-black.png" width="15px" height="15px" id="apps"></a>
-            <a href="#" target="_blank"><img src="images/notification.png" width="20px" height="20px" id="notification"></a>
-            <a href="#" target="_blank" id="account-icon"><img src="images/googleprof.png" height="33px" width="33px"></a>
-        </div>
+        <a href="http://www.google.com" class="google-logo"><img src="images/google-logo.png" height="30px" width="92px" id="googlelogo"></a>
+            
+        <a href="#" id="prof"><img src="images/googleprof.png" height="33px" width="33px"></a>
+        <a href="#" id="notify"><img src="images/notification.png" height="20px" width="20px"></a> 
+        <a href="#" id="gapps"><img src="images/google-apps-black.png" height="15px" width="15px"></a>   
     </header>
     <div class="searchbar">
+        <style>
+            #search-button {
+                position: fixed;
+                height: 20px;
+                width: 20px;
+                margin: 32px 0 0 700px;
+            }
+        </style>
         <form>
             <input type="text">
-            <input type="submit" value="Google Search" id="search-button">
-        </form>
-    </div>
-    
+         </form>
+            <a href="#" id="search-button"><img src="images/search.png" height="20px" width="20px" margin="32px"></a>
+    </div> 
     <div class="resultsbar">
         <div id="toolbar">
             <a href="#">News</a>
