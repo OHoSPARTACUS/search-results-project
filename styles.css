@@ -4,13 +4,30 @@
     font-family: Arial;
 }
 
+a {
+    color: rgb(4, 35, 136);
+    font-size: 19px;
+}
+
+.sublink {
+    color: seagreen;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
 header {
     position: fixed;
+    z-index: 10;
     height: 68px;
     width: 100%;
     background-color: white;
     border: solid 1px white;
     box-shadow: 3px gray;
+    top: 0;
+    padding: 10px 0;
 }
 
 #prof {
@@ -37,6 +54,7 @@ form {
     height: 41px;
     width: 650px;
     position: fixed; 
+    z-index: 12;
 }
 
 input[type=text] {
@@ -46,28 +64,57 @@ input[type=text] {
     border-left: transparent;
     border-bottom: solid transparent 1px;
     border-right: solid transparent 1px;
+    border-radius: 25px;
     padding: 0 20px;
     margin: 20px 0 0 170px;
 }
 
 input[type=text]:hover {
     height: 40px;
-    width: 525px;
+    width: 550px;
     border-top: transparent;
     border-left: transparent;
     border-bottom: solid transparent 1px;
     border-right: solid transparent 1px;
+    border-radius: 25px;
     box-shadow: 0px 1px 1px 0px;
     padding: 0 20px;
     margin: 20px 0 0 170px;;
 }
 
+.toolkit {
+    color: #757575;
+    font-size: 13px;
+    padding: 0 0 20px 20px;
+    margin-bottom 20px;
+}
+
+#setting {
+    color: #757575;
+    font-size: 13px;
+    padding: 0 0 0 15px;
+    margin: 0 0 0 130px;
+}
+
+#tools {
+    color: #757575;
+    font-size: 14px;
+    padding: 0 0 20px 20px;
+}
+
+
 .resultsbar {
     width: 592px;
-    padding: 70px 20px 0 20px;
+    padding: 85px 20px 0 20px;
     margin: 10px 0 0 150px;
 }
 
 .resultsbar .res-link {
     padding: 20px 0 0 0;
+}
+
+.tweetbox {
+    width: 171;
+    height: 265;
+    border: solid 1px gray;
 }
