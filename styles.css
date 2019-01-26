@@ -86,7 +86,7 @@ input[type=text]:hover {
     color: #757575;
     font-size: 13px;
     padding: 0 0 20px 20px;
-    margin-bottom 20px;
+    margin-bottom: 20px;
 }
 
 #setting {
@@ -102,6 +102,11 @@ input[type=text]:hover {
     padding: 0 0 20px 20px;
 }
 
+.resultcount {
+    padding: 18px 0 0 0;
+    font-size: 16px;
+    color: #808080
+}
 
 .resultsbar {
     width: 592px;
@@ -114,7 +119,29 @@ input[type=text]:hover {
 }
 
 .tweetbox {
-    width: 171;
-    height: 265;
-    border: solid 1px gray;
+    position: static;
+    display: inline-block;
+    width: 173px;
+    height: 265px;
+    border-top: solid 1px transparent;
+    border-right: solid 1px #dfe1e5;
+    border-bottom: solid 1px transparent;
+    border-left: solid 1px #dfe1e5;
+    font-size: 16px;
+    overflow: hidden;
+    margin: 10px 4px 0px 4px;
+    padding: 5px 4px;
+}
+
+.tweetbox .tweetlink {
+    font-size: 16px;
+    color: gray;
+}
+
+.tweetbox .tweetbottom {
+    float: bottom;    
+}
+
+.tweetbox .tweetbottom a{
+    font-size: 18px;  
 }
