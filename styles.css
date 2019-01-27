@@ -138,10 +138,36 @@ input[type=text]:hover {
     color: gray;
 }
 
-.tweetbox .tweetbottom {
-    float: bottom;    
-}
-
 .tweetbox .tweetbottom a{
     font-size: 18px;  
+}
+
+.imglink {
+    margin: 20px 0 0 0;
+}
+
+.images {;
+    margin: 10px 0 0 0;
+}
+
+.images .imgbar {
+    display: inline-block;
+    margin: 5px 0px;
+    height: 80px;
+    width: 110px;
+    overflow: hidden;
+}
+
+.relatedtag {
+    margin-top: 25px;
+}
+
+#related, #related2 {
+    display: inline-block;
+    min-width: 105px;
+}
+
+#related a, #related2 a {
+    Height: 103px;
+    font-size: 14px;
 }
